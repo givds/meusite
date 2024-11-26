@@ -1,13 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+    background-color: #f4f4f4;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
 }
 
 header {
@@ -17,31 +11,19 @@ header {
     text-align: center;
 }
 
-header nav ul {
-    list-style: none;
+header .logo img {
+    margin-bottom: 10px;
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 10px;
+header h1 {
+    font-size: 2.5em;
 }
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-section {
+#servicos {
+    background-color: #fff;
     padding: 20px;
     margin: 20px;
-    background-color: white;
     border-radius: 8px;
-}
-
-h2 {
-    color: #333;
-    margin-bottom: 20px;
 }
 
 .servicos-lista {
@@ -51,19 +33,10 @@ h2 {
 
 .servico {
     text-align: center;
-    width: 22%;
     padding: 10px;
     background-color: #f1f1f1;
     border-radius: 8px;
-}
-
-#contato ul {
-    list-style: none;
-    padding: 0;
-}
-
-#contato ul li {
-    margin-bottom: 10px;
+    width: 22%;
 }
 
 footer {
@@ -75,4 +48,5 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
 
